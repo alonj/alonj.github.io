@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "About Me - Alon Jacoby"
+title                    : "Alon Jacoby"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Alon Jacoby"
@@ -82,7 +82,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :    "ci_gmi6tIbwkg1yEVXQH6Xr18Sqzx_I0ReOj-gGK4MI"
+google_site_verification :  
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
@@ -116,8 +116,8 @@ author:
   name             : "Alon Jacoby"
   avatar           : "/assets/images/profile_picture.jpeg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "M.Sc Student @ BIU-NLP"
-  location         : "Israel"
-  email            :
+  location         : 
+  email            :  "alon.jacoby@live.biu.ac.il"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -326,7 +326,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
-      related: true
+      related: false
