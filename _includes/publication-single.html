@@ -11,20 +11,29 @@
 {% endif %}
 
 <div class="{{ include.type | default: 'list' }}__item">
+  {% unless forloop.first %}
+  <hr>
+  {% endunless %}
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
     {% include page__meta.html type=include.type %}
-    <div class="post-content smaller-font" itemprop="articleBody">
+    <div class="post-content smaller-font no-underline" itemprop="articleBody">
       {{ post.content }}
     </div>
   </article>
-  <hr>
 </div>
 
 <style>
   .smaller-font {
     font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .no-underline {
   text-decoration: none;
-}
+  }
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #a8a8a8;
+    margin: 20px 0;
+  }
 </style>
