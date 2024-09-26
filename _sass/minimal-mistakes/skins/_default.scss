@@ -30,3 +30,59 @@ a {
 a:hover {
   color: var(--link-color-hover);
 }
+
+#site-nav {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+#site-nav a {
+  color: var(--link-color);
+}
+
+#site-nav a:hover {
+  color: var(--link-color-hover);
+}
+.theme-toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.theme-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-label {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.toggle-label .toggle-inner {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .toggle-label {
+  background-color: #2196F3;
+}
+
+input:checked + .toggle-label .toggle-inner {
+  transform: translateX(26px);
+}
