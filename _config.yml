@@ -13,6 +13,7 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin_dark: "dark"
 
 # Site Settings
 locale                   : "en-US"
@@ -21,7 +22,7 @@ title                    : "Alon Jacoby"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Alon Jacoby"
-description              : "M.Sc Student @ BIU-NLP"
+description              : "M.Sc Student @ [BIU-NLP](https://biu-nlp.github.io/people)"
 url                      : "https://alonj.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

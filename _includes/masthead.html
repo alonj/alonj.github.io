@@ -22,6 +22,9 @@
             </li>
           {%- endfor -%}
         </ul>
+        {% if site.minimal_mistakes_skin_dark %}
+            <li><i class="fas fa-fw fa-adjust dark_mode_btn" aria-hidden="true" onclick="dark_mode_btn_click()"></i></li>
+        {% endif %}
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
@@ -34,13 +37,6 @@
         </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
-      <div class="theme-toggle">
-        <input type="checkbox" id="theme-switch" name="theme" />
-        <label for="theme-switch" class="toggle-label">
-          <span class="toggle-inner"></span>
-          <span class="toggle-switch"></span>
-        </label>
-      </div>
     </div>
   </div>
 </div>
