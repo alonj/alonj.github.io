@@ -2,4 +2,31 @@
    Default skin
    ========================================================================== */
 
-// Intentionally left blank
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #007acc;
+  --link-color: #007acc;
+  --link-color-hover: #005f99;
+}
+
+[data-theme='dark'] {
+  --background-color: #252a34;
+  --text-color: #eaeaea;
+  --primary-color: #00adb5;
+  --link-color: #00adb5;
+  --link-color-hover: #007acc;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-color-hover);
+}

@@ -16,6 +16,28 @@
   {%- endif %}
 </script>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const themeSwitch = document.getElementById('theme-switch');
+    const currentTheme = localStorage.getItem('theme') || 'default';
+
+    if (currentTheme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      themeSwitch.checked = true;
+    }
+
+    themeSwitch.addEventListener('change', function() {
+      if (this.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'default');
+        localStorage.setItem('theme', 'default');
+      }
+    });
+  });
+</script>
+
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
