@@ -83,11 +83,12 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :  
+google_site_verification :  "FyAT2RMuArEEkOjlDuzBrTv9xHSrFsngtCUMfpD-MtE"
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
+# <meta name="google-site-verification" content="FyAT2RMuArEEkOjlDuzBrTv9xHSrFsngtCUMfpD-MtE" />
 
 # Social Sharing
 twitter:
