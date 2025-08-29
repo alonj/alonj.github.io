@@ -22,7 +22,7 @@ title                    : "Alon Jacoby"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Alon Jacoby"
-description              : "M.Sc Student @ [BIU-NLP](https://biu-nlp.github.io/people)"
+description              : "PhD Student @ [Penn](https://cogcomp.seas.upenn.edu/)"
 url                      : "https://alonj.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -117,9 +117,9 @@ analytics:
 author:
   name             : "Alon Jacoby"
   avatar           : "/assets/images/profile_picture.jpeg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "M.Sc Student @ BIU-NLP"
+  bio              : "PhD Student @ Penn"
   location         : 
-  email            :  "alon.jacoby@live.biu.ac.il"
+  email            :  "alonja@seas.upenn.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
