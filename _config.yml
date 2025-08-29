@@ -117,7 +117,7 @@ analytics:
 author:
   name             : "Alon Jacoby"
   avatar           : "/assets/images/profile_picture.jpeg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "PhD Student @ Penn"
+  bio              : "PhD Student @ UPenn (CogComp Group)"
   location         : 
   email            :  "alonja@seas.upenn.edu"
   links:
