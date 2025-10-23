@@ -119,9 +119,9 @@ author:
   avatar           : "/assets/images/profile_picture.jpeg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "PhD Student @ UPenn (CogComp Group)"
   location         : 
-  email            :  "alonja@seas.upenn.edu"
+  email            :  ""
   links:
-    - label: "Email"
+    - label: "alonja (at) seas . upenn . edu"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
